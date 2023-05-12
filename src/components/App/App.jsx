@@ -54,6 +54,7 @@ const normalizedFilter = this.state.filter.toLocaleLowerCase();
   render() {
 
     const visibleContacs = this.getVisibleContacts();
+    console.log(visibleContacs);
 
     return (
       <Container>
